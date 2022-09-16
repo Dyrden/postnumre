@@ -1,0 +1,10 @@
+.simpleStyle {
+    flex-direction: column;
+    margin: auto;
+    background-color: darkseagreen;
+    padding: 15px;
+    border-radius: 15px;
+    width: fit-content;
+
+
+}
