@@ -41,7 +41,7 @@ public class PostAccessor {
 
     public String cityIndexer(int index) {
         HashMap<Integer,String> hm = readFile();
-        String found = "";
+        String found = "Ingen bydel findes ved dette postnummer";
 
 
         for (Map.Entry<Integer, String> entry: hm.entrySet()) {
